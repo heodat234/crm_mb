@@ -1,0 +1,846 @@
+
+.has-error input{
+  border-color: #f94440 !important;
+}
+
+.has-error .help-block {
+  color: #f94440;
+  font-style: italic;
+  font-size: 14px;
+}
+.help-block {
+    display: block;
+    margin-top: 5px;
+    color: #737373;
+}
+.button_chat_offline {
+  padding: 9px 16px 9px;
+  color: #FFF;
+  border-radius: 5px 5px 0 0;
+  cursor: pointer;
+  display: block;
+  white-space: nowrap;
+  float: right; 
+  background-color: #1688c5;
+
+}
+.button_chat_offline_text i{
+  padding-right:8px;
+}
+.minimize {
+  padding: 8px;
+  cursor: pointer;
+  z-index: 1;
+  float: right;
+
+}
+.minimize-icon {
+  display: inline-block;
+  width: 16px;
+  height: 2px;
+  background: #FFF;
+}
+.new-message-number{
+  position: absolute;
+  background: #ccc;
+  width: 18px;
+  height: 18px;
+  border-radius: 3px;
+  line-height: 18px;
+  text-align: center;
+  font-size: 11px;
+  color: #FFF;
+  top: -6px;
+  right: -2px;
+  background-color: #ff0000;
+  z-index: 9;
+  animation: myfirst 0.5s;
+  -moz-animation: myfirst 0.8s infinite;
+  -webkit-animation: myfirst 0.8s infinite;
+}
+.operator-info {
+  background-size: auto;
+  padding: 8px 10px;
+  display:block;
+  background-color:#f6f6f6;
+  min-height: 74px;
+}
+.operator-info .avatar {
+    float: left;
+    margin-right: 15px;
+    border-radius: 3px;
+    background-clip: padding-box;
+    padding: 1px;
+    width: 58px;
+    height: 58px;
+    vertical-align: top;
+}
+.operator-name {
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+}
+.operator-role {
+  margin-top: .25em;
+  color: #000;
+  font-size: 12px;
+}
+.operator-name, .operator-role {
+    display: block;
+    max-width: 180px;
+}
+.form-suvey{
+	width: 100%;
+	overflow-y: unset; 
+	-webkit-overflow-scrolling: touch;
+	overflow-x: hidden; 
+	height: 100%;
+	padding: 30px 30px 20px 30px;
+}
+.form-suvey .form-control {
+  padding:5px 0px;
+}
+
+.form-suvey .form-control p{
+  padding: 5px 0;
+  margin: 0px;
+}
+.form-suvey button{
+  background-color: #1688c5;
+  width: 70%;
+  text-align: center;
+  line-height: 35px;
+  color: #FFF;
+  display: inline-block;
+  border-radius: 2px;
+  font-weight: bold;
+  font-size: 15px;
+  margin: 20px 15% 3px 15%;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+.form-suvey .form-control input{
+  width: 100%;
+  background-clip: padding-box;
+  border: 1px solid #ababab;
+  border-radius: 2px;
+  padding: 6px 7px 8px 7px;
+  margin: 0 auto;
+  font-size: 14px;
+  color: #333;
+  font-family: 'Roboto', sans-serif;
+  box-shadow: 0px 0px 3px #e4e4e4;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  outline: none;
+}
+.form-suvey .form-control.require input{
+	border: 1px solid #ff7070;
+}
+
+.hotline-launcher.h-open{
+	min-height: 0;
+	height: calc(100% - 45px);
+	max-height: 720px;
+	width: 390px;
+}
+
+.hotline-launcher{
+	margin: 20px;
+	position: fixed!important;
+	width: 390px;
+	z-index: 9996!important;
+	bottom: 0;
+	width: 390px;
+	border-radius: 5px!important;
+	right: 0!important;
+	transition: all 195ms ease-in;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	webkit-box-shadow: 0 0 6px rgba(0,0,0,.3);
+	box-shadow: 0 0 6px rgba(0,0,0,.3);
+}
+
+div.h-channel div.body, div.h-survey div.body, div.h-chat div.body {
+	background-color: #fff;
+	width: 100%;
+	height: calc(100% - 124px);
+	position: absolute;
+	z-index: 10;
+	left: 0;
+	top: 100px;
+	bottom: 0;
+	padding: 0!important;
+	overflow: hidden;
+	border-radius: 5px 5px 0 0;
+}
+
+/* .body .h-chat-window {
+    -webkit-overflow-scrolling: touch;
+    bottom: 70px;
+    height: calc(100% - 85px);
+    left: unset;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+} */
+
+/* .div.h-conv div.body {
+  background-image: url(https://omnisalessanbox.worldfone.vn/portal/assets/images/bg_chat_admin/01.jpg);
+  background-size: 600px 400px;
+
+} */
+ 
+  img {
+    vertical-align: middle;
+  }
+  .h-header{
+    /* background-repeat: no-repeat;
+    border-radius: 5px 5px 0 0;
+    display: inline-block;
+    height: auto;
+    min-height: 150px;
+    transition: .4s all;
+    width: 100%;
+    z-index: 100;
+    color: #FFF;
+    position: relative; */
+    background: #45A4EC;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 0 6px rgba(0,0,0,.3);
+    display: inline-block;
+    height: auto;
+    min-height: 100px;
+    position: absolute;
+    top: 0;
+    transition: .4s all;
+    width: 100%;
+    z-index: 100;
+  }
+  .h-header .head-action{
+    position: absolute;
+    right: 20px;
+    top: 8px;
+    color: #fff;
+    padding: 10px 0;
+  }
+  .h-header .head-action i{
+    cursor: pointer;
+    padding-right: 13px;
+  }
+  .h-header .head-action i:last-of-type{
+    padding-right: 0px;
+  }
+  .h-header .ic-back {
+    border-radius: 0;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;    
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+  }
+
+  .h-header .ic-icon {
+    border-radius: 0;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    
+    position: relative;
+    text-align: center;
+    top: 14px;
+    margin-left: -4px;
+    vertical-align: middle;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    width: 30px;
+    height: 30px;
+  }
+
+  .widget-setting-dropdown{
+    position: absolute;
+    width: 260px;
+    border: 1px #ebebeb solid;
+    border-radius: 5px;
+    background-color: #FFF;
+    padding: 20px 0;
+    top: 32px;
+    right: 12px;
+    z-index: 999;
+    box-shadow: 0px 0px 20px rgba(0, 42, 118, 0.07);
+    display: none;
+  }
+  .widget-setting-dropdown li {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    padding: 8px 0;
+    color: #4e4e4e;
+    cursor: pointer;
+  }
+  .widget-setting-icon {
+    display: inline-block;
+    color: #888;
+    margin: 0 10px 0 15px;
+    width: 14px;
+    vertical-align: middle;
+  }
+
+  div.h-channel .h-header .title, .h-header .title {
+    /* color: #fff;
+    font-size: 1.23rem;
+    height: 100%;
+    vertical-align: middle;
+    width: 85%;
+    display: inline-block;
+    float: unset;
+    padding: 40px 10px 14px 20px; */
+    font-size: 1.23rem;
+    height: 100%;
+    vertical-align: middle;
+    width: 85%;
+    display: inline-block;
+    float: unset;
+    padding: 14px 20px;
+    color: #fff;
+    /*font-size: 22px;*/
+    font-weight: 700;
+    line-height: 1.3;
+    margin: 6px 0 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-transform: capitalize;
+    text-transform: unset;
+    transition: .25s all;
+    white-space: nowrap;
+  }
+  .h-header h1.list-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.3;
+    margin: 6px 0 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-transform: capitalize;
+    text-transform: unset;
+    transition: .25s all;
+    white-space: nowrap;
+  }
+  .h-header p.list-desc {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.3;
+    margin: 4px 0 0;
+    max-width: 100%;
+    opacity: .8;
+    overflow-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 1.2rem;
+    white-space: nowrap;
+    width: 100%;
+  }
+  .h-survey{
+  	width: 100%;
+  	/* height: calc(100% - 140px);
+  	position: absolute;
+  	z-index: 10;
+  	left: 0;
+  	top: 100px;
+  	bottom: 0;
+  	padding: 0!important;
+  	overflow: hidden;
+  	border-radius: 5px 5px 0 0; */
+  }
+
+div.footer-note {
+  	background: -moz-linear-gradient(270deg,rgba(242,243,246,0) F 0,#f2f3f6 30%,#f2f3f6 100%);
+  	background: -webkit-gradient(linear,left top,left bottom,color-stop(0,rgba(242,243,246,0)),color-stop(30%,#f2f3f6),color-stop(100%,#f2f3f6));
+  	background: -webkit-linear-gradient(270deg,rgba(242,243,246,0) 0,#f2f3f6 30%,#f2f3f6 100%);
+  	background: -o-linear-gradient(270deg,rgba(242,243,246,0) 0,#f2f3f6 30%,#f2f3f6 100%);
+  	background: -ms-linear-gradient(270deg,rgba(242,243,246,0) 0,#f2f3f6 30%,#f2f3f6 100%);
+  	background: linear-gradient(180deg,rgba(242,243,246,0) 0,#f2f3f6 30%,#f2f3f6 100%);
+  	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#FFFFFF', GradientType=0 );
+  	bottom: 0;
+  	direction: ltr;
+  	font-size: 12px;
+  	padding: 12px 0 6px;
+  	position: absolute;
+  	text-align: center;
+  	width: 100%;
+}
+.h-chat .body{
+  background-image: url(https://omnisalessanbox.worldfone.vn/portal/assets/images/bg_chat_admin/01.jpg);
+  background-size: 600px 400px;
+}
+  /* Chat */
+  .body .chatbox{
+    /*box-shadow: 0 5px 25px rgba(0,0,0,.16)!important;*/
+    
+    /*padding-bottom:20px;
+    border-radius: 0 0 5px 5px; */
+    -webkit-overflow-scrolling: touch;
+    bottom: 70px;
+    height: calc(100% - 85px);
+    left: unset;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+  }
+
+  .chat-content-w .chat-message .user-name{
+    font-size: 11px;
+    color: #697379;
+    padding-left: 37px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding-bottom: 1px;
+  }
+  .chat-content-w .chat-message.finded .chat-message-content{
+    background-color: #ffeded !important;
+  }
+  
+  .chat-content-w {
+  
+
+  }
+  .chat-content-w .chat-content,
+  .chat-content-w:hover,
+  .chat-content-w:focus,
+  .chat-message
+  {
+    visibility: visible;
+  }
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: rgba(255,255,255,.1);
+  }
+
+
+  ::-webkit-scrollbar-thumb {
+    background: rgba(216,216,216,.5);
+    border-radius: 5px; 
+  }
+  
+  .chat-content-w .chat-content {
+    webkit-animation-delay: .23s;
+    -webkit-animation-duration: .32s;
+    -webkit-animation-fill-mode: backwards;
+    -webkit-transform: translateX(0);
+    animation-delay: .23s;
+    animation-duration: .32s;
+    animation-fill-mode: backwards;
+    animation-timing-function: cubic-bezier(.23,1,.32,1);
+    display: block;
+    height: 100%;
+    opacity: 1;
+    padding: 30px 0px 25px;
+    transform: translateX(0);
+    transition: -webkit-transform .2s;
+    transition: transform .2s,-webkit-transform .2s;
+    transition: transform .2s;
+    width: 100%;
+  }
+
+  .chat-content-w .chat-message {
+    position: relative;
+    padding: 0px 20px 5px;
+  }
+  .chat-content-w .chat-date-separator {
+    text-align: center;
+    color: rgb(101, 101, 101);
+    position: relative;
+    margin: 20px 0px;
+  }
+  .chat-content-w .chat-date-separator span {
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    padding: 0px 10px;
+    border-radius: 15px;
+  }
+  .chat-content-w .chat-date-separator::before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    right: 0px;
+  }
+  .chat-content-w .chat-message .chat-message-content {
+    background-color: rgb(180, 234, 255);
+    color: rgb(31, 43, 54);
+    display: inline-block;
+    margin-bottom: -20px;
+    margin-left: 35px;
+    text-align: left;
+    max-width: 70%;
+    word-wrap: break-word;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 0px;
+    padding: 5px 15px;
+    border-radius: 5px;
+  }
+  .chat-content-w .chat-message.self .chat-message-content {
+    background-color: rgb(255, 255, 255);
+    color: rgb(42, 78, 127);
+    margin-right: 0px;
+    margin-left: 0px;
+    word-wrap: break-word;
+  }
+  .chat-message .chat-message-avatar {
+    position: absolute;
+    display: inline-block;
+    vertical-align: bottom;
+    top: 16px;
+    left: 20px;
+  }
+  .chat-content-w .chat-message.self .chat-message-avatar {
+    top: 0px;
+    right: 20px;
+  }
+  .chat-content-w .chat-message .chat-message-date {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-left: 35px;
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.3);
+  }
+  .chat-content-w .chat-date-separator {
+    text-align: center;
+    color: rgb(101, 101, 101);
+    position: relative;
+    margin: 20px 0px;
+  }
+  /*.chat-date-separator{display: none;}*/
+  .chat-content-w .chat-date-separator span {
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    padding: 0px 10px;
+    border-radius: 15px;
+  }
+  
+
+  .chat-extra-actions{
+    position: absolute;
+    top: 15px;
+    right: 20px;
+  }
+
+  /* end Chat */
+  .h-footer .brand{
+    display: inline-block!important;
+    float: right;
+    font-size: 12px;
+    color: #9a9a9a;
+    padding-right: 10px;
+  }
+  .h-footer .brand a{
+    color: #9a9a9a;
+  }
+  /* button */
+  .d-hotline {
+    background-color: #0aa4db !important;
+    color: #ffffff !important;
+    border-color: transparent #0aa4db transparent transparent;
+  }
+  .d-hotline.h-btn {
+  /*   width: 60px;
+  height: 60px; */
+    position: fixed;
+    right: 5px;
+    bottom: 6px;
+    z-index: 9995;
+    box-shadow: 0 5px 4px 0 rgba(0,0,0,.26);
+    cursor: pointer;
+    border-radius: 50%;
+    color: #FFF;
+    padding: 7px 10px 10px;
+    display: table;
+  }
+  .brand {
+    float: right;
+    font-size: 12px;
+    color: #9a9a9a;
+    padding-right: 10px;
+  }
+  .brand a {
+    color: #9a9a9a;
+}
+  .animated {
+    animation-duration: .4s;
+    animation-fill-mode: both;
+  }
+  .zoomIn {
+    -webkit-animation-name: zoomIn;
+    animation-name: zoomIn;
+  }
+  .zoomOut{
+    -webkit-animation-name:zoomOut;
+    animation-name:zoomOut
+  }
+
+  .icon-ic_chat_icon img{
+    width: 40px;
+    height: 40px;
+  }
+
+  @-webkit-keyframes zoomIn{
+    0%{
+      opacity:0;
+      -webkit-transform:scale3d(.3,.3,.3);
+      transform:scale3d(.3,.3,.3)
+    }
+    50%{
+      opacity:1
+    }
+  }
+  @keyframes zoomIn{
+    0%{
+      opacity:0;
+      -webkit-transform:scale3d(.3,.3,.3);
+      transform:scale3d(.3,.3,.3)
+    }
+    50%{
+      opacity:1
+    }
+  }
+  @-webkit-keyframes zoomOut{
+    0%{
+      opacity:1
+    }
+    50%{
+      -webkit-transform:scale3d(.3,.3,.3);
+      transform:scale3d(.3,.3,.3)
+    }
+    50%,to{
+      opacity:0
+    }
+  }
+  @keyframes zoomOut{
+    0%{
+      opacity:1
+    }
+    50%{
+      -webkit-transform:scale3d(.3,.3,.3);
+      transform:scale3d(.3,.3,.3)
+    }
+    50%,to{
+      opacity:0
+    }
+  }
+  @keyframes myfirst{
+    0% {
+      margin-top: 0px;
+    }
+    50% {
+      margin-top: 2px;
+    }
+  }
+
+  *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+html{
+  /*border: 1px solid;*/
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fira Sans', 'Droid Sans', 'Cantarell', 'Helvetica Neue', sans-serif !important;
+}
+
+
+/* div.h-channel .h-header .title, .h-header .title {
+    color: #fff;
+    font-size: 1.23rem;
+    height: 100%;
+    vertical-align: middle;
+    width: 85%;
+    display: inline-block;
+    float: unset;
+    padding: 40px 10px 14px 20px;
+} */
+
+/* Chat */
+
+
+.chat-content-w .chat-message .chat-message-content a img {
+  vertical-align: text-bottom;
+}
+
+
+.full-chat-middle {
+ background-image: url(https://omnisalessanbox.worldfone.vn/portal/assets/images/bg_chat_admin/01.jpg);
+ background-size: 600px 400px;
+ padding:0;
+}
+
+.chat-content-w .chat-message.self {
+  text-align: right;
+}
+.chat-content-w .chat-message .chat-message-avatar img{
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  border-radius: 30px;
+}
+
+
+
+.chat-controls chat-input{
+  /* box-shadow: rgb(224, 228, 234) 0px 0px 1px;
+  margin: 0px 10px;
+  border-radius: 5px;
+  padding: 10px 0px 10px 10px;
+  background: rgb(255, 255, 255);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(224, 228, 234);
+  border-image: initial;
+  position: relative; */
+  webkit-animation-duration: .8s;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-name: h-slide-in;
+  -webkit-transform: translateY(0);
+  animation-delay: .2s;
+  animation-duration: .8s;
+  animation-fill-mode: both;
+  animation-name: h-slide-in;
+  animation-timing-function: cubic-bezier(.23,1,.32,1);
+  border-radius: 5px;
+  bottom: 0;
+  left: 0;
+  opacity: 1;
+  position: absolute;
+  transform: translateY(0);
+  width: 100%;
+  z-index: 10;
+}
+.chat-controls .chat-input{
+  webkit-transition: .6s;
+  border-radius: 0;
+  bottom: 0;
+  left: 0;
+  max-height: 200px;
+  min-height: 60px;
+  padding: 0 8px 8px;
+  position: absolute;
+  right: 0;
+  transition: .6s;
+}
+.chat-input textarea {
+  /* display: block;
+  width: 100%;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+  outline: none;
+  resize: none; */
+  background-color: #fff;
+  border-radius: 5px;
+  border: none;
+  bottom: 0;
+  box-sizing: border-box;
+  color: rgba(9,30,66,.87);
+  font-size: 1rem;
+  font-weight: 400;
+  height: 100%;
+  left: 0;
+  line-height: 1.5;
+  max-height: 190px;
+  min-height: 52px;
+  overflow-y: auto;
+  padding: 15px 80px 15px 10px;
+  position: relative;
+  resize: none;
+  transition: .4s;
+  white-space: pre-wrap;
+  width: 100%;
+  word-wrap: break-word;
+  z-index: 10;
+  box-shadow: 0 0 20px 0 rgba(224, 224, 224, 0.5);
+}
+.chat-input textarea:focus {
+  outline: 0;
+  box-shadow: 0 0 20px 0 rgba(150,165,190,.5);
+}
+.chat-extra-actions a{
+  cursor: pointer;
+}
+
+.chat-controls .btn-upload{
+  z-index: 99;
+  position: absolute;
+  right: 20px;
+  margin-top: 28px;
+}
+
+.visible {
+  display: block;
+  visibility: visible;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 32px;
+  height: 16px;
+  float: right;
+  vertical-align: middle;
+  margin: 0 10px 0 0;
+}
+.switch input {
+    display: none;
+}
+input:checked + .circle {
+    background-color: #2196F3;
+}
+.circle {
+    position: absolute;
+    cursor: pointer;
+    width: 32px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #CCC;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 17px;
+}
+input:checked + .circle:before {
+  -webkit-transform: translateX(24px);
+  -ms-transform: translateX(24px);
+  transform: translateX(24px);
+  left: -7px;
+}
+
+.circle:before {
+  position: absolute;
+  content: "";
+  height: 14px;
+  width: 14px;
+  left: 1px;
+  bottom: 1px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 50%;
+}

@@ -1,0 +1,15 @@
+{
+    "wff_version": "4.1",
+    "wff_env": "DEV",
+    "wff_unique_login": false,
+    "wff_auth_redirect": true,
+    "wff_time_cache": 10,
+    "show_customer": "ALL",
+    "show_cdr": "ALL",
+    "softphone": "",
+    "brand_title": "JETSTAR",
+    "brand_logo": "public\/picture\/logo\/jetstar-vector-logo-small.png",
+    "loader_layer": true,
+    "login_logout_ipphone": false,
+    "ip_sip_server": ""
+}

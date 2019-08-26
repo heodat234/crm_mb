@@ -1,0 +1,19 @@
+#osc_frame.osc-widget-normal{
+	bottom: 15px;
+	height: 90px;
+	min-height: 72px;
+	min-width: 65px;
+	overflow: hidden;
+	position: fixed;
+	right: 18pt;
+	width: 80px;
+	z-index: 2147483600;
+}
+
+#osc_frame.osc-widget-normal.h-open-container, #osc_frame.h-open-container {
+    height: 720px;
+    max-height: calc(100% - 95px - 20px);
+    min-height: 0;
+    width: 432px;
+    opacity: 1;
+}

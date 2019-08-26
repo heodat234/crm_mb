@@ -1,0 +1,45 @@
+stdClass Object
+(
+    [trigger] => message
+    [page_id] => 5c25eeb377098ed3036c95d4
+    [page_info] => stdClass Object
+        (
+            [page_id] => 5c25eeb377098ed3036c95d4
+            [name] => Live chat
+        )
+
+    [parent_user] => user_1414589598653489
+    [windowInfo] => stdClass Object
+        (
+            [href] => https://omnisales.worldfone.vn/livechat_demo.html
+            [host] => omnisales.worldfone.vn
+            [hostname] => omnisales.worldfone.vn
+            [protocol] => https:
+            [port] => 
+            [pathname] => /livechat_demo.html
+            [origin] => https://omnisales.worldfone.vn
+        )
+
+    [messages] => stdClass Object
+        (
+            [text] => Chào bạn
+            [timestamp] => 1560400645
+            [sender_id] => 5cbeaa6d77098e486f274ca4
+            [sender_info] => stdClass Object
+                (
+                    [name] => 1123456
+                    [user_id] => 5cbeaa6d77098e486f274ca4
+                    [profile_pic] => 
+                )
+
+            [type] => text
+            [url] => 
+            [source] => stdClass Object
+                (
+                    [type] => livechat
+                    [id] => 5c25eeb377098ed3036c95d4
+                )
+
+        )
+
+)
